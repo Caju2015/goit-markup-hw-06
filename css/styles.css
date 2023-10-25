@@ -180,12 +180,20 @@ address {
 .hero {
     padding: 72px 16px;
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
     margin: auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-mob-2x.jpg);
+}
 }
 
 .hero-container {}
@@ -838,7 +846,16 @@ margin-right: 8px;
 
     .hero {
 padding: 112px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tab.jpg);
     }
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tab-2x.jpg);
+    }
+}
 
     .hero-title {
     font-size: 56px;
@@ -854,6 +871,11 @@ padding: 112px;
     .advantages-item {
         width: calc((100% - 24px) /2);
     }
+
+.team-list {
+    gap: 64px 24px;
+}
+
     .team-item {
     /* width: calc((100% - 24px) /2); */
     }
@@ -875,6 +897,15 @@ padding: 112px;
 
 .hero {
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-2x.jpg);
+    }
 }
 
 .hero-title {
