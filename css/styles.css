@@ -182,9 +182,7 @@ address {
     width: 24px;
     height: 24px;
     background-color: transparent;
-    top: 16px;
-    right: 16px;
-    bottom: 16px;
+    margin: 16px 16px 16px 0;
 }
 .menu-open-icon {
 }
@@ -954,6 +952,18 @@ margin-right: 8px;
         max-width: 768px;
     }
 
+.header-menu-list {
+    display: flex;
+}
+
+.header-address-list {
+    display: flex;
+}
+
+.menu-open-btn {
+    display: none;
+}
+
     .hero {
 padding: 112px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tab.jpg);
@@ -973,6 +983,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)
     max-width: 496px;
     margin-bottom: 36px;
 }
+
 
     .advantages-list {
         gap: 72px 24px;
