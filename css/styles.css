@@ -944,9 +944,6 @@ margin-right: 8px;
 }
 /* ===MODAL WINDOW END=== */
 
-/* @media screen and (min-width: 320px) {
-} */
-
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -957,7 +954,14 @@ margin-right: 8px;
 }
 
 .header-address-list {
-    display: flex;
+    display: block;
+    gap: 12px;
+}
+
+.header-address-link {
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
 }
 
 .menu-open-btn {
@@ -1020,6 +1024,10 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)
     .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.header-address-list {
+    display: flex;
 }
 
 .hero {
