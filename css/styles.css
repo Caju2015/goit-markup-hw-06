@@ -184,8 +184,7 @@ address {
     background-color: transparent;
     margin: 16px 16px 16px 0;
 }
-.menu-open-icon {
-}
+.menu-open-icon {}
 
 .mob-menu {
     position: fixed;
@@ -220,10 +219,9 @@ address {
     right: 24px;
     border-radius: 50%;
 }
-.menu-close-icon {
-}
-.mob-menu-list {
-}
+.menu-close-icon {}
+.mob-menu-list {}
+
 .mob-menu-item:not(:last-child) {
     margin-bottom: 40px;
 }
@@ -242,8 +240,7 @@ text-transform: capitalize;
     color: #404bbf;
 }
 
-.mob-address-list {
-}
+.mob-address-list {}
 
 .mob-address-item:not(:last-child) {
     margin-bottom: 24px;
@@ -1120,11 +1117,13 @@ gap: 24px;
     }
 
     .footer-container {
+        width: 100vw;
     display: flex;
 }
 
 .footer-text {
     margin-bottom: 0;
+    margin-right: 0    ;
 }
 
 .footer-logo-container {
@@ -1135,17 +1134,9 @@ gap: 24px;
     margin-right: 80px;
 }
 
-/* .footer-soc-title {
-    text-align: start;
-} */
-
 .footer-subscribe {
     gap: 16px;
 }
-
-/* .footer-subscribe-title {
-    text-align: start;
-} */
 
 .footer-form {
     gap: 24px;
