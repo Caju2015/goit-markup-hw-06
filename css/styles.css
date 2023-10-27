@@ -73,7 +73,6 @@ address {
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-
 }
 
 .header-container {
@@ -263,10 +262,12 @@ letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
 }
+
 .mob-soc-item {
     width: 40px;
     height: 40px;
 }
+
 .mob-soc-link {
     width: 100%;
     height: 100%;
@@ -389,7 +390,6 @@ align-self: stretch;
 .advantages-icon-wrap {
     display: none;
 }
-
 /* ===ADVANTAGE (Section 2) END=== */
 
 /* ===TEAM (Section 3)=== */
@@ -481,9 +481,6 @@ align-self: stretch;
 .team-soc-icon {
     fill: #F4F4FD;
 }
-
-/* .team-soc-icon::after {
-} */
 /* ===TEAM (Section 3) END=== */
 
 /* ===PORTFOLIO (Section 4)=== */
@@ -569,7 +566,6 @@ align-self: stretch;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow: auto;
 }
-
 /* ===PORTFOLIO (Section 4) END=== */
 
 /* ===FOOTER=== */
@@ -578,8 +574,7 @@ align-self: stretch;
     background-color: #2e2f42;
 }
 
-.footer-container {
-}
+.footer-container {}
 
 .footer-logo {
     color: #4d5ae5;
@@ -609,11 +604,9 @@ align-self: stretch;
     margin-right: 16px;
 }
 
-.footer-logo-container {
-    
-}
-.footer-soc-media {
-}
+.footer-logo-container {}
+
+.footer-soc-media {}
 
 .footer-soc-title {
     color: #FFF;
@@ -624,6 +617,7 @@ align-self: stretch;
     margin-bottom: 16px;
     text-align: center;
 }
+
 .footer-soc-list {
     display: flex;
     gap: 16px;
@@ -734,7 +728,6 @@ align-items: center;
     fill: #fff;
     vertical-align: middle;
 }
-
 /* ===FOOTER END=== */
 
 /* ===MODAL WINDOW=== */
@@ -804,8 +797,7 @@ text-align: center;
 margin-bottom: 16px;
 }
 
-.modal-window {
-}
+.modal-window {}
 
 .modal-field {
     margin-bottom: 8px;
