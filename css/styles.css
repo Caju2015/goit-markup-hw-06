@@ -582,8 +582,6 @@ align-self: stretch;
 }
 
 .footer-container {
-    /* width: 288px;
-    align-items: baseline; */
 }
 
 .footer-logo {
@@ -665,7 +663,6 @@ align-self: stretch;
 .footer-subscribe {
 display: inline-flex;
 flex-direction: column;
-/* gap: 16px; */
 }
 
 .footer-subscribe-title {
@@ -1001,7 +998,6 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)
     margin-bottom: 36px;
 }
 
-
     .advantages-list {
         gap: 72px 24px;
     }
@@ -1024,7 +1020,37 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)
 
 .footer-container {
     width: 496px;
+    align-items: baseline;
 }
+
+.footer-logo-soc {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-logo {
+    display: inline-block;
+}
+
+.footer-soc-title {
+    text-align: left;
+}
+
+.footer-soc-list {
+    margin-bottom: 0;
+    justify-content: start;
+}
+
+.footer-subscribe-title {
+    text-align: left;
+}
+
+.footer-form {
+    flex-direction: row;
+    align-items: start;
+gap: 24px;
+}
+
 
     .footer-input {
     width: 264px;
