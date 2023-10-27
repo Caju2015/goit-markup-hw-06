@@ -900,11 +900,11 @@ margin-bottom: 16px;
     background-color: #404bbf;
 }
 
-.is-open {
+/* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
+} */
 
 .modal-field-checkbox {
 margin-bottom: 24px;
@@ -940,6 +940,12 @@ margin-right: 8px;
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 /* ===MODAL WINDOW END=== */
 
