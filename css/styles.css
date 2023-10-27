@@ -949,6 +949,10 @@ margin-right: 8px;
 }
 /* ===MODAL WINDOW END=== */
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
