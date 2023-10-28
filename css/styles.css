@@ -196,7 +196,7 @@ address {
     padding: 72px 24px 40px 16px;
     display: flex;
     flex-direction: column;
-    justify-content: spac-between;
+    justify-content: space-between;
     overflow: auto;
     /* opacity: 0;
     visibility: hidden;
