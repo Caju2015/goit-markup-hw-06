@@ -226,6 +226,9 @@ address {
 .menu-close-icon {}
 .mob-menu-list {}
 
+.mob-menu-item:first-child {
+    color: #404bbf;
+}
 .mob-menu-item:not(:last-child) {
     margin-bottom: 40px;
 }
@@ -239,13 +242,17 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.mob-menu-link:focus,
+/* .mob-menu-link:focus,
 .mob-menu-link:hover {
+    color: #404bbf;
+} */
+
+.mob-menu-list .mob-menu-item:nth-child(1) a {
     color: #404bbf;
 }
 
 .mob-address-list {
-    margin-bottom: auto;
+    margin-bottom: 168;
 }
 
 .mob-address-item:not(:last-child) {
@@ -260,10 +267,14 @@ line-height: 1.20;
 letter-spacing: 0.02em;
 }
 
-.mob-address-link:hover,
+/* .mob-address-link:hover,
 .mob-address-link:focus {
     color: #404bbf;
-} 
+}  */
+
+.mob-address-list .mob-address-item:nth-child(1) a {
+    color: #404bbf;
+}
 
 .mob-soc-list {
     display: flex;
@@ -908,11 +919,11 @@ margin-bottom: 16px;
     background-color: #404bbf;
 }
 
-/* .is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-} */
+}
 
 .modal-field-checkbox {
 margin-bottom: 24px;
