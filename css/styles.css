@@ -224,7 +224,10 @@ address {
     border-radius: 50%;
 }
 .menu-close-icon {}
-.mob-menu-list {}
+
+.mob-menu-list {
+    margin-bottom: auto;
+}
 
 .mob-menu-item:first-child {
     color: #404bbf;
@@ -252,7 +255,7 @@ text-transform: capitalize;
 }
 
 .mob-address-list {
-    margin-bottom: 168;
+    margin-bottom: 48px;
 }
 
 .mob-address-item:not(:last-child) {
