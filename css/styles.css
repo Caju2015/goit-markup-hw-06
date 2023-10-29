@@ -1160,8 +1160,12 @@ letter-spacing: 0.02em;
 
 .advantages-subtitle {
 font-size: 20px;
-/* font-weight: 500; */
+font-weight: 500;
 line-height: 1.2;
+}
+
+.advantages-item-text {
+    font-weight: 400;
 }
 
     .advantages-icon-wrap {
